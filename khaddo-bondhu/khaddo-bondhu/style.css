@@ -1,0 +1,391 @@
+body{
+	margin: 0;
+	font-family: tahoma;
+	background: #fbfbfb;
+	color:#fff;
+}
+h1,h2,h3,p{
+	color:#fff;
+}
+.error{
+	color:red;
+	text-decoration: underline;
+}
+.body-main{
+	width: 100%;
+	padding:20px 0;
+}
+.container{
+	width: 95%;
+	margin: auto;
+}
+.footer-tag{
+	position: absolute;
+	top: 90%;
+	left: 45%;
+}
+
+/*****  INDEX.PHP  *******/
+/*************************/
+/****STYLE STARTS HERE****/
+.middle-pos{
+	padding: 70px 0 0 0;
+	width: 100%;
+	overflow:hidden;
+}
+#save-food-image{
+	
+}
+#save-food-image img{
+	
+}
+#heading-area{
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	overflow: hidden;
+}
+#heading-area-bottom{
+	padding: 50px 0 0;
+}
+#signUp, .login-btn, .signup{
+	padding: 8px 15px;
+	display: inline-block;
+	width: 45%;
+	font-size: 15px;
+	font-weight: bold;
+	color: darkorange;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	letter-spacing: 5px;
+	transition: .3s;
+}
+#signUp:hover, .login-btn:hover, .signup:hover{
+	background: #f97b00;
+	letter-spacing: 3px;
+	color: #fff;
+}
+#make-sml{
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 10px;
+}
+.signUp-opt{
+	display: none;
+	width: 20%;
+	margin: auto;
+	text-align: center;
+	position: absolute;
+	top: 64%;
+	left: 40%;
+	background: #efefef;
+	padding: 15px 0 0;
+	border-radius: 5px;
+}
+.popUp{
+	display: block;
+}
+.signUp-opt b{
+	color: #fc8800;
+}
+.signUp-opt ul{
+	list-style: none;
+	padding-left: 0;
+}
+.signUp-opt ul li{
+
+}
+.signUp-opt ul li a{
+	display:inline-block;
+	padding: 6px 15px;
+	text-decoration: none;
+	cursor: pointer;
+	border:1px solid #fc8800;
+	margin-bottom: 5px;
+	border-radius: 7px;
+	color: #fc8800;
+	background: #fff;
+}
+.signUp-opt ul li a:hover{
+	background: #aaa;
+}
+
+
+/*****USER LOGIN PAGE******/
+/**************************/
+/****CODE STARTS HERE******/
+
+#login-title{
+	text-align: center;
+}
+.login-form{
+	width: 50%;
+	margin: auto;
+	text-align: center;
+}
+.login-header{
+	text-align: center;
+}
+.login-form label{
+	display: block;
+	font-size: 16px;
+	margin-bottom: 4px;
+}
+.login-form input{
+	display: block;
+	padding: 7px 15px;
+	margin: auto;
+	margin-bottom: 15px;
+	width: 65%;
+	border-radius: 5px;
+	border: 2px solid #d79714;
+	font-size: 16px;
+}
+.login-form input:last-child{
+	padding: 7px 10px;
+	margin-top:22px;
+	font-size: 16px;
+	width: 38%;
+	letter-spacing: 0;
+}
+.signup-form input:last-child{
+	padding: 8px 10px;
+	margin-top: 12px;
+	font-size: 14px;
+	width: 34%;
+	letter-spacing: 0;
+}
+/***********/
+.sign-up-area{
+	padding: 25px 0 0;
+}
+.signup-form textarea{
+	width: 68%;
+	max-height: 40px;
+	font-size: 14px;
+	font-family: tahoma;
+	border: 2px solid #d79714;
+	padding: 5px;
+}
+
+/****** BLOG PAGE STYLE STARTS HERE ******/
+
+.header-area{
+	width:100%;
+	overflow: hidden;
+	padding:10px 0;
+	background: #ff7500;
+	border-bottom: 2px solid #fff;
+}
+.header-area .container{
+	width: 85%;
+}
+.logo-area, .menu-area, .signup-login{
+	width:30%;
+	float: left;
+	overflow:hidden;
+}
+.menu-area{
+	width:50%;
+}
+.signup-login{
+	width:20%;
+}
+.menu-area ul, .signup-login ul{
+	list-style: none;
+	padding-left: 0;
+	text-align: center;
+}
+.menu-area ul li, .signup-login ul li{
+	display: inline;
+}
+.menu-area ul li a, .signup-login ul li a{
+	text-decoration: none;
+	color:#fff;
+	margin: 0 20px 0 0;
+}
+.menu-area ul li a:hover, .signup-login ul li a:hover{
+	color: #eee;
+	text-decoration: underline;
+}
+.logo-area h3{
+	margin: 0;
+	font-size: 30px;
+}
+.logo-area p{
+	margin: 0;
+	font-size: 14px;
+}
+.logo-area p span{
+	letter-spacing: 3px;
+}
+.main-body{
+	width: 70%;
+	float: left;
+	overflow:hidden;
+	padding: 85px 0;
+	background: #fbfbfb;
+	color:#ff7500;
+}
+.main-body .container{
+	width:85%;
+}
+.main-body h3 > a{
+	text-decoration: none;
+	color: #606060;
+}
+.search-bar{
+	padding:30px 0 0;
+}
+.search-bar input{
+	padding: 8px 20px;
+	width: 72%;
+	border-radius: 25px;
+	border: 2px solid #ff7500;
+	display: block;
+	margin: auto;
+	color: #ff7500;
+	font-size: 16px
+}
+.right-sidebar{
+	width: 30%;
+	float: left;
+	overflow:hidden;
+	background: #fbfbfb;
+}
+.sidebar-item{
+	padding:35px 0 0; 
+	margin-bottom: 10px;
+}
+.sidebar-item-title{
+	color:#ff7500;
+	margin-left: 37px;
+	margin-bottom: 0;
+}
+.sdbar-title-hr{
+	width: 80%;
+	border:0;
+	border-bottom: 2px solid #ff7500;
+}
+.popular-posts ul, .recent-posts ul{
+	list-style: none;
+	padding-left: 0;
+}
+.popular-posts ul li a, .recent-posts ul li a{
+	text-decoration: none;
+	cursor: pointer;
+	padding:5px 0;
+	color: #606060;
+}
+.popular-posts ul li a img, .recent-posts ul li a img{
+	max-width:80px;
+	max-height: 50px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	float: left;
+}
+.popular-posts ul li h3, .recent-posts ul li h3{
+	margin: 0;
+	margin-bottom: 3px;
+}
+.popular-posts ul li p, .recent-posts ul li p{
+	margin: 0;
+	margin-top:5px;
+	color:#ff7500;
+}
+.blog-item{
+	padding: 50px 0;
+}
+.blog-item img{
+	display: block;
+	max-width: 650px;
+	height: auto;
+}
+.blog-item h3,.blog-item p{
+	color: #606060;
+}
+.blog-item .post-metas span:after{
+	content: "|";
+	clear: both;
+	display: inline-block;
+	margin-left: 5px;
+}
+.blog-item .post-metas span:last-child:after{
+	content: "";
+	clear: both;
+}
+.footer-area{
+	width: 100%;
+	overflow:hidden;
+	padding: 20px 0 0;
+	background: #ff7500;
+}
+.footer-top{
+	width: 100%;
+	overflow:hidden;
+	padding: 20px 0;
+}
+.footer-top .container{
+	width: 85%;
+}
+.footer-item{
+	width: 23%;
+	float: left;
+	overflow:hidden;
+	margin-right:2.66%;
+}
+.footer-item ul{
+	list-style: none;
+	padding-left: 0;
+}
+.footer-item ul li a{
+	margin:8px 0;
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+
+.footer-item:last-child{
+	margin-right: 0;
+}
+.footer-item:last-child ul li{
+	margin-bottom: 8px;
+}
+.footer-item .icon{
+	width: 40px;
+	float: left;
+}
+.footer-item .info{
+	display: table-cell;
+	vertical-align: top;
+}
+.footer-item .social-links li{
+	float: left;
+}
+.footer-item .social-links li a{
+	display: inline-block;
+	padding:10px;
+	border:2px solid #fff;
+	border-radius: 25%;
+	margin-right: 20px;
+}
+.footer-bottom{
+	width: 100%;
+	overflow:hidden;
+	padding: 5px 0;
+	background: #FF6300;
+}
+.footer-copyright{
+	width: 50%;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+}
+.footer-copyright p a{
+	color: #ddd;
+}
+.footer-menu{
+	width: 50%;
+	float: left;
+	overflow: hidden;
+}
